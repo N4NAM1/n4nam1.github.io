@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Jingchen Fei | Personal Homepage</title>
+  <meta name="description" content="Jingchen Fei is a master's student at BUPT, interested in 3D and 4D computer vision, human-scene understanding, world models, vision-language models, and agentic AI.">
+  <link rel="stylesheet" href="style.css">
+  <script src="background.js" defer></script>
+  <script src="music.js" defer></script>
+</head>
+<body>
+
+  <canvas id="network-background" aria-hidden="true"></canvas>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page">
+    <header>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#education">Education</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <main id="main">
+      <section id="about" class="intro">
+
+        <img class="photo" src="assets/IMG_20250905_103405.jpg" width="110" height="110" alt="Jingchen Fei's profile image">
+
+        <h1>Jingchen Fei</h1>
+        <p class="aliases">Also known as Nanami / SP1C4</p>
+        <p>I am a master's student at the School of Artificial Intelligence, Beijing University of Posts and Telecommunications (BUPT).</p>
+
+        <!-- Add a CV link when available. -->
+        <p class="profile-links"><a href="mailto:feijingchen@bupt.edu.cn">Email</a> / <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=4iLW9UQAAAAJ">Google Scholar</a> / <a href="https://github.com/N4NAM1">GitHub</a></p>
+      </section>
+      <section id="research">
+        <h2>Research Summary</h2>
+        <p>My current interests center on <strong>3D and 4D reconstruction</strong> and <strong>human-scene understanding</strong>: recovering the geometry and dynamics of people and their surroundings from visual observations. I am also interested in <strong>world models</strong>, <strong>vision-language models</strong>, and <strong>agentic AI</strong>, particularly their connections to visual understanding and reasoning.</p>
+        <p>My earlier research focused on <strong>gait recognition</strong> and <strong>multimodal retrieval</strong>. In <a href="#composegait">ComposeGait</a>, we study how to retrieve gait sequences that preserve a person's identity while following natural-language instructions about appearance or viewpoint changes.</p>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <article>
+          <h3>Beijing University of Posts and Telecommunications</h3>
+          <p>M.S. student, School of Artificial Intelligence · 2025–present</p>
+        </article>
+        <article>
+          <h3>Hangzhou Dianzi University</h3>
+          <p>B.E., Zhuoyue Honors College · 2024</p>
+        </article>
+      </section>
+
+      <section id="publications">
+        
+        <h2>Selected Preprints</h2>
+        <!-- Copy this article to add another publication. -->
+        <article class="publication" id="composegait">
+          <a class="publication-thumbnail" href="https://arxiv.org/abs/2608.26632" aria-label="Read the ComposeGait paper">
+            <img src="assets/composegait-teaser.png" width="92" height="92" alt="ComposeGait overview from the paper: retrieval task, data pipeline, and framework">
+          </a>
+          <div class="publication-details">
+            <h3><a href="https://arxiv.org/abs/2608.26632">Who Remains, What Changes: Identity Anchored Composed Gait Retrieval</a></h3>
+            <p class="publication-authors"><strong>Jingchen Fei</strong>, Zengbin Wang, Yukun Liu, Muyi Sun, Shibiao Xu, Man Zhang</p>
+            <p class="publication-venue">arXiv, 2026</p>
+            <p class="resource-links"><a href="https://arxiv.org/abs/2608.26632">[Paper]</a> <a href="https://arxiv.org/pdf/2608.26632">[PDF]</a> <a href="assets/composegait.bib" download>[BibTeX]</a></p>
+          </div>
+        </article>
+      </section>
+
+      <section id="beyond-research">
+        <h2>Beyond Research</h2>
+        <p>Outside research, I enjoy playing video games, including rhythm games. I am especially fond of the <em>Final Fantasy</em> series and <em>Trails in the Sky</em>.</p>
+        <p>I am deeply grateful to the VTuber <a href="https://www.youtube.com/@Pmarusama" target="_blank" rel="noopener noreferrer"><strong>Pmarusama</strong></a>, featured in my profile picture, for helping me through one of the hardest periods of my life.</p>
+        <div class="favorite-music">
+          <div class="music-heading">
+            <h3>Favorite Music</h3>
+            <a id="music-open" href="https://open.spotify.com/track/1vpmEH3AE0mOUNz24yMs84" target="_blank" rel="noopener noreferrer">Open in Spotify ↗</a>
+          </div>
+          <div class="music-tracks" role="group" aria-label="Choose a favorite track">
+            <button class="music-choice" type="button" data-track="1vpmEH3AE0mOUNz24yMs84" data-title="Dancing Mad (Final Fantasy VI) — Nobuo Uematsu" aria-label="Play Dancing Mad (Final Fantasy VI)" aria-pressed="false" data-selected="true" title="Dancing Mad (Final Fantasy VI) — Nobuo Uematsu">
+              <span class="music-art"><img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e023479a61eaae6d85a0308fe1a" width="64" height="64" alt="" loading="lazy"><span class="music-symbol" aria-hidden="true">▶</span></span>
+              <span class="music-title">Dancing Mad</span>
+            </button>
+            <button class="music-choice" type="button" data-track="3m1HMMAtzviavbWF5KHoLw" data-title="Orchestra:Revenge Twofold — Masayoshi Soken" aria-label="Select Orchestra:Revenge Twofold" aria-pressed="false" title="Orchestra:Revenge Twofold — Masayoshi Soken">
+              <span class="music-art"><img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e024a068ebbe7996268ef62998f" width="64" height="64" alt="" loading="lazy"><span class="music-symbol" aria-hidden="true">▶</span></span>
+              <span class="music-title">Revenge Twofold</span>
+            </button>
+            <button class="music-choice" type="button" data-track="7fxzqLLTXObxIoTfI3FA0l" data-title="Somnus (Instrumental Version) — Yoko Shimomura" aria-label="Select Somnus (Instrumental Version)" aria-pressed="false" title="Somnus (Instrumental Version) — Yoko Shimomura">
+              <span class="music-art"><img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02f12e9091af7a7626f1bf37db" width="64" height="64" alt="" loading="lazy"><span class="music-symbol" aria-hidden="true">▶</span></span>
+              <span class="music-title">Somnus</span>
+            </button>
+            <button class="music-choice" type="button" data-track="4ZnRqHnCSmlQWMeX9bQyMb" data-title="Shine of Eidos - Sora No Kiseki - — Falcom Sound Team jdk" aria-label="Select Shine of Eidos" aria-pressed="false" title="Shine of Eidos - Sora No Kiseki - — Falcom Sound Team jdk">
+              <span class="music-art"><img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e025798d4c183dd18ba14768929" width="64" height="64" alt="" loading="lazy"><span class="music-symbol" aria-hidden="true">▶</span></span>
+              <span class="music-title">Shine of Eidos</span>
+            </button>
+            <button class="music-choice" type="button" data-track="44142B3gjhrmFCvkR7IRDP" data-title="Continuation of the Dream — Falcom Sound Team jdk" aria-label="Select Continuation of the Dream" aria-pressed="false" title="Continuation of the Dream — Falcom Sound Team jdk">
+              <span class="music-art"><img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e025798d4c183dd18ba14768929" width="64" height="64" alt="" loading="lazy"><span class="music-symbol" aria-hidden="true">▶</span></span>
+              <span class="music-title">Continuation</span>
+            </button>
+          </div>
+          <div class="spotify-engine" aria-hidden="true"><div id="spotify-controller"></div></div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p><a href="mailto:feijingchen@bupt.edu.cn">feijingchen@bupt.edu.cn</a> </p>
+      </section>
+    </main>
+    <footer>© Jingchen Fei · Last updated: October 2026</footer>
+  </div>
+</body>
+</html>
